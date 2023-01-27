@@ -3,7 +3,7 @@
     line-height: 1.5em;
 }
 #active {
-    background-color: white;
+    background-color: rgb(238, 102, 102);
     color: steelblue;
 }
 img {
