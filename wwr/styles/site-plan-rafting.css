@@ -2,8 +2,42 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sofia+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Rock+Salt&display=swap');
+.home-title {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
+}
 
+.msg {
+  background-color: #6f7364;
+  line-height: 1.5em;
+}
+
+body {
+  background-color: #fcfbfb;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+.book, .join {
+  background-color: #d9c2a3;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fcfbfb;
+  text-align: center;
+  padding: 35px;
+}
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #6c786b  ;
@@ -12,7 +46,7 @@ Fonts are separated by a & */
   --accent2-color: #e2d9d9;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Sofia";
+  --heading-font: "Rock Salt";
   --paragraph-font: Roboto, Helvetica sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
